@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/miestilo.css">
+    <link rel="stylesheet" href="css/fonts/iconos.css">
+    <title>Navbar</title>
+  </head>
+  <body>
+    <div class="containter-flex">
+      <div class="row barra">
+        <div class="col-2">
+          <img class="img-logo" src="IMAGENES/LOGO.PNG" alt="">
+        </div>
+        <div class="col-10 d-flex justify-content-end align-items-end ">
+          <a href="#"><img class="img-social" src="IMAGENES/YOUTUBE.PNG" alt=""></a>
+          <a href="#"><img class="img-social" src="IMAGENES/FACEBOOK.PNG" alt=""></a>
+          <a href="#"><img class="img-social" src="IMAGENES/INSTAGRAM.PNG" alt=""></a>
+          <a href="#"><img class="img-social" src="IMAGENES/PINTEREST.PNG" alt=""></a>
+          <a href="#"><img class="img-social" src="IMAGENES/TWITTER.PNG" alt=""></a>
+        </div>
+      </div>
+
+      <!-- IDEA: ------------------     CONSTRUCCION DE NAVBAR   --------------------------- -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler miboton" type="button" data-toggle="collapse" data-target="#navegador1" aria-controls="navegador1" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="icon-list"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navegador1">
+          <ul class="navbar-nav nav-fill w-100">
+              <li class=" nav-item"><a class="nav-link" href="">Inicio</a></li>
+              <li class=" nav-item"><a class="nav-link" href="">Grupos</a></li>
+              <li class=" nav-item"><a class="nav-link" href="">Artistas</a></li>
+              <li class=" nav-item"><a class="nav-link" href="">Top 10</a></li>
+              <li class=" nav-item"><a class="nav-link" href="">Letras</a></li>
+              <li class=" nav-item"><a class="nav-link" href="">Acordes</a></li>
+              <li class=" nav-item dropdown d-block d-md-none">
+                  <a class="nav-link dropdown-toggle" href="#" id="Lista1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Nuestras Redes Sociales</a>
+                  <ul class="dropdown-menu" aria-labelledby="Lista1">
+                    <a class="dropdown-item" href="#">Instagram</a>
+                    <a class="dropdown-item" href="#">Youtube</a>
+                    <a class="dropdown-item" href="#">Facebook</a>
+                  </ul>
+              </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <!-- IDEA: -------------------------        CONTENIDO    --------------------------------- -->
+      <br>
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+              <div class="contenido container">
+                <br>
+                <h2>Tributo a The Beatles</h2>
+                <img class="img-articulo float-md-right mr-2" src="IMAGENES/THE_BEATLES.JPG" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row">
+                  <div class="col-1">
+                    <label for="Textarea1"><span class="icon-user"></span></label>
+                  </div>
+                  <div class="col-11">
+                    <textarea id="Textarea1" class="form-control" placeholder="Escribe y comenta..." rows="1" cols="12"></textarea>
+                  </div>
+                </div>
+                <br>
+
+
+                <h2>El número documental de Michael Jackson!</h2>
+                <br>
+                <img class="img-articulo float-md-left mr-3" src="IMAGENES/JACKSON.JPG" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="row">
+                  <div class="col-1">
+                    <label for="Textarea1"><span class="icon-user"></span></label>
+                  </div>
+                  <div class="col-11">
+                    <textarea id="Textarea1" class="form-control" placeholder="Escribe y comenta..." rows="1" cols="12"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 d-none d-md-block">
+              <div class="contenido container">
+                  <h3>Opciones Filtro</h3>
+                  <form class="" action="index.html" method="post">
+                    <div class="col-auto">
+                      <div class="input-group mb-2">
+                        <div class="input-group-prepend">
+                          <div class="input-group-text"><span class="icon-search"></span></div>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Buscar articulo, tema">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="Selector1">Por articulo:</label>
+                      <select class="form-control" id="Selector1">
+                        <option>Más reciente</option>
+                        <option>Más visto</option>
+                        <option>Más comentado</option>
+                      </select>
+                    </div>
+                    <br>
+
+                    <h6>Por género musical:</h6>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio_genero" id="Radio1" value="option1">
+                      <label class="form-check-label" for="Radio1">
+                        Rock en Español
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio_genero" id="Radio2" value="option2">
+                      <label class="form-check-label" for="Radio2">
+                        Rock Clásico
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="radio_genero" id="Radio3" value="option3">
+                      <label class="form-check-label" for="Radio3">
+                        Grunge
+                      </label>
+                    </div>
+                    <br>
+
+                    <h6>Fuentes de articulos: </h6>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        CNN
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                      <label class="form-check-label" for="defaultCheck2">
+                        New York Times
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                      <label class="form-check-label" for="defaultCheck2">
+                        Washington Post
+                      </label>
+                    </div>
+
+                    <div class="d-flex justify-content-end">
+                      <button type="submit" class="btn btn-outline-danger mb-2">Aplicar</button>
+                    </div>
+                  </form>
+
+
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/dist/umd/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <title>Foundation Componentes</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="icons/iconos.css">
+  </head>
+  <body>
+    <div class="grid-container margen">
+        <div class="contenedor grid-container-fluid">
+            <div class="grid-container grid-x grid-margin-x show-for-medium">
+              <div class="cell medium-4" style="border-right: 2px solid white;">
+                <h3><strong>Cocinando...</strong></h3>
+                <p class="text-right">El Blog de los amantes de la Gastronomía</p>
+              </div>
+              <div class="cell medium-8">
+                <h1>...Logo</h1>
+              </div>
+            </div>
+            <hr>
+
+            <div class="grid-container grid-x grid-margin-x">
+              <div class="interno grid-container cell medium-4 show-for-medium">
+                <form class="" action="index.html" method="post">
+                    <h4>Opciones de blog: </h4>
+                    <hr>
+                    <h6><strong>Menu: </strong></h6>
+                    <div class="input-group">
+                      <input class="input-group-field" type="text" placeholder="Receta, tipo de comida etc.." name="" value="">
+                      <a class="input-group-label" href="#"><span class="icon-search"></span></a>
+                    </div>
+                    <div class="button-group grid-y">
+                      <a class="button secondary">Inicio</a>
+                      <a class="button secondary">Mi plato favorito</a>
+                      <a class="button secondary">Mis recetas</a>
+                    </div>
+                </form>
+                    <h6><strong>Favoritos:</strong></h6>
+                    <br>
+                    <div class="grid-x grid-margin-y grid-margin-x">
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO1.JPG" alt=""></div>
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO2.JPG" alt=""></div>
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO3.JPG" alt=""></div>
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO4.JPG" alt=""></div>
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO5.JPG" alt=""></div>
+                        <div class="img-marco cell medium-4"><img class="img-favorito" src="IMG/PLATO6.JPG" alt=""></div>
+                    </div>
+                    <br>
+
+                    <h6><strong>Historial: </strong></h6>
+                    <a href="#"><p class="h6">Raviolis de carne gratinados</p></a>
+                    <a href="#"><p class="h6">Postres en 5 minutos</p></a>
+                    <a href="#"><p class="h6">Formas de hornar en casa</p></a>
+                    <a href="#"><p class="h6">Pollo en salsa</p></a>
+                    <a href="#"><p class="h6">Cañon de cerdo BBQ</p></a>
+              </div>
+              <div class="cell medium-8">
+
+
+                  <!-- IDEA: ------- ARTICULO 1 -------- -->
+                  <div class="grid-container interno">
+                    <h4><strong>Pasta artesanal </strong></h4>
+                    <p class="h6">6 de Mayo de 2019</p>
+                    <img src="IMG/PASTA.JPG" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <hr>
+                    <label>
+                      <p>Escribe un comentario:</p>
+                      <textarea placeholder="Opina..."></textarea>
+                      <a class="button alert float-right"><span class="icon-pencil"></span> Publicar</a>
+                    </label>
+                    <br>
+
+                    <!-- IDEA: ----------------  COMENTARIOS ARTICULO --------------  -->
+                    <div class="comentarios cell small-12 grid-x">
+                      <div class="cell small-2"><img src="IMG/HOMBRE.JPG" alt=""></div>
+                      <div class="cell small-9 small-offset-1 align-self-middle">
+                          <p><strong>Juan_F:</strong> Que gran Post, aprendí mucho sobre la pasta </p>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="comentarios cell small-12 grid-x">
+                      <div class="cell small-2"><img src="IMG/MUJER.PNG" alt=""></div>
+                      <div class="cell small-9 small-offset-1 align-self-middle">
+                          <p><strong>Maria23:</strong> Tengo una pregunta sobre esta receta... </p>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="comentarios cell medium-12 grid-x">
+                      <div class="cell small-2"><img src="IMG/HOMBRE.JPG" alt=""></div>
+                      <div class="cell small-9 small-offset-1 align-self-middle">
+                          <p><strong>Chef_768:</strong> Me gustó la forma cómo describes la preparación de la pasta. </p>
+                      </div>
+                    </div>
+                    <br>
+                  </div>
+
+                  <!-- IDEA: ------- ARTICULO 2 -------- -->
+                  <div class="grid-container interno">
+                    <h4><strong>Los mejores jugos naturales para adelgazar </strong></h4>
+                    <p class="h6">14 de Agosto 2019</p>
+                    <img src="IMG/JUGO.JPG" alt="">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <hr>
+                    <label>
+                      <p>Escribe un comentario:</p>
+                      <textarea placeholder="Opina..."></textarea>
+                      <a class="button alert float-right"><span class="icon-pencil"></span> Publicar</a>
+                    </label>
+                    <br>
+
+                    <!-- IDEA: ----------------  COMENTARIOS ARTICULO --------------  -->
+                    <div class="comentarios cell medium-12 grid-x">
+                      <div class="cell small-2"><img src="IMG/HOMBRE.JPG" alt=""></div>
+                      <div class="cell small-9 small-offset-1 align-self-middle">
+                          <p><strong>Pedro_Rios:</strong> Lo pondré en practica</p>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="comentarios cell medium-12 grid-x">
+                      <div class="cell small-2"><img src="IMG/MUJER.PNG" alt=""></div>
+                      <div class="cell small-9 small-offset-1 align-self-middle">
+                          <p><strong>Sofia23:</strong> Voy a preparlo y les cuento el sabor </p>
+                      </div>
+                    </div>
+                    <br>
+                  </div>
+
+              </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script src="js/app.js"></script>
+  </body>
+</html>

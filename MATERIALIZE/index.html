@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluacion Materialize</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Import Google Icon Font-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/miestilo.css">
+  </head>
+  <body>
+    <div class="container">
+
+          <div class="row">
+            <div class="col s6 m3">
+              <img class="brand-logo logo" src="IMG/LOGO.JPG" alt="">
+            </div>
+            <div class="col m9 hide-on-med-and-down">
+              <a class="btn right indigo darken-4" href="#">Inicio</a>
+              <a class="btn right indigo darken-4" href="#">Estuve en...</a>
+              <a class="btn right indigo darken-4" href="#">Mejores Viajes</a>
+              <a class="btn right indigo darken-4" href="#">Recomendaciones</a>
+            </div>
+            <div class="col s6 hide-on-large-only">
+              <a href="#" data-target="nav-dispositivos" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="sidenav" id="nav-dispositivos">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Estuve en...</a></li>
+                <li><a href="#">Mejores Viajes</a></li>
+                <li><a href="#">Recomendaciones</a></li>
+              </ul>
+            </div>
+
+            <div class="col s12 m9">
+              <br>
+              <h4 style="margin:0;"><strong>Creando mi propio camino</strong></h4>
+            </div>
+          </div>
+
+          <!-- IDEA: -----------------           CONTENIDO     ----------------------------- -->
+
+          <div class="row">
+              <div class="hide-on-small-only col m1">
+                  <div><a href="#"><img class="redes_sociales" src="IMG/FACEBOOK.PNG" alt=""></a></div>
+                  <div><a href="#"><img class="redes_sociales" src="IMG/TWITTER.PNG" alt=""></a></div>
+                  <div><a href="#"><img class="redes_sociales" src="IMG/PINTEREST.PNG" alt=""></a></div>
+                  <div><a href="#"><img class="redes_sociales" src="IMG/YOUTUBE.PNG" alt=""></a></div>
+                  <div><a href="#"><img class="redes_sociales" src="IMG/INSTAGRAM.PNG" alt=""></a></div>
+              </div>
+              <div class="col m11 row">
+                  <div class="col m5">
+                    <img class="lugares" src="IMG/CIUDAD.JPG" alt="">
+                    <img class="lugares" src="IMG/LUGAR1.JPG" alt="">
+                    <img class="lugares" src="IMG/LUGAR2.JPG" alt="">
+                  </div>
+                  <div class="col m4">
+                    <img class="lugares" src="IMG/IGLESIA.JPG" alt="" style="height:600px;">
+                  </div>
+                  <div class="col m3">
+                    <img class="lugares" src="IMG/LUGAR4.JPG" alt="" style="height:190px;">
+                    <img class="lugares" src="IMG/LUGAR5.JPG" alt="" style="height:190px;">
+                    <img class="lugares" src="IMG/LUGAR6.JPG" alt="" style="height:190px;">
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col m9">
+                <div class="articulo">
+                  <h5 class="center-align"><strong>Conoce buceando la otra cara de Cancún</strong></h5>
+                  <div class="chip"> 7 de Mayo de 2019 <i class="tiny material-icons">date_range</i></div>
+                  <div class="chip"> Bogotá, Colombia <i class="tiny material-icons">place</i></div>
+                  <img class="left" src="IMG/LUGAR5.JPG" alt="" style="width:350px; height:250px; margin:15px;">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                </div>
+              </div>
+
+              <div class="articulo center-align col m3">
+                <img class="autor" src="IMG/AUTOR.JPG" alt="">
+                <h5><strong>Perfil del autor</strong></h5>
+                <hr>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+              </div>
+          </div>
+
+            <!-- IDEA:    ------------------------   FORMULARIO    ------------------------ -->
+
+          <div class="row formulario blue lighten-4" style="border-radius:10px; border: 2px solid black; color:black;">
+            <h5>Deja tu comentario</h5>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">perm_identity</i>
+              <input  id="nombre" class="validate" type="text">
+              <label style="color:black;" for="nombre">Nombre y Apellidos</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" class="validate" type="email">
+              <label style="color:black;" for="email" data-success="correcto" data-error="Debes completar este campo">Correo Electrónico</label>
+            </div>
+            <div class="input-field col s12">
+              <i class="material-icons prefix">comment</i>
+              <textarea id="texto" class="materialize-textarea"></textarea>
+              <label style="color:black;" for="texto">Comentario</label>
+            </div>
+            <a class="col s12 btn right indigo darken-4" href="#">Enviar</a>
+          </div>
+
+
+
+
+      </div>
+
+
+
+
+
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function()
+      {
+        M.AutoInit();
+      });
+    </script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+</html>

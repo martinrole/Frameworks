@@ -1,0 +1,61 @@
+*
+{
+  color: white;
+}
+body
+{
+  background-image: url("../IMG/FONDO.JPG");
+  width: 100%;
+}
+.contenedor
+{
+  background-color: rgb(203,87,62, 0.6);
+
+}
+.interno
+{
+  background-color: #3B1801;
+  margin-bottom: 20px;
+}
+.input-group-label,
+{
+  background-color: red;
+  color: white;
+  border: none;
+}
+.input-group-field
+{
+  border: none;
+}
+.img-marco
+{
+  border: 3px solid white;
+}
+.img-favorito
+{
+  width: 100%;
+  height: 60px;
+}
+textarea
+{
+  margin:0;
+  border: none;
+}
+.comentarios
+{
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+.comentarios p, .comentarios p strong
+{
+  color: black;
+}
+@media screen and (max-width:39.9375em)
+{
+  .margen
+  {
+    padding: 0;
+    margin: 0;
+
+  }
+}
